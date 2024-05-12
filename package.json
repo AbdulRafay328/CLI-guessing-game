@@ -1,0 +1,25 @@
+{
+  "name": "abdul-rafay-328cli-guessing-game",
+  "version": "2.0.2",
+  "description": "This is CLI based guessing game",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "abdul-rafay-328cli-guessing-game": "main.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"ABDUL RAFAY\"",
+  "license": "MIT",
+  "dependencies": {
+    "abdul-rafay-328cli-guessing-game": "^2.0.2",
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
